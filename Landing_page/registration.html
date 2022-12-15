@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" type="text/css" href="" />
+        <style>
+         table, th, td {
+            border: 1px solid blak;
+         }
+         body{
+            background-image: url('collage2.jpg');
+            background-size: 1300px;
+        
+         }
+         form{
+            width: 330px;
+            margin: 100px;
+            padding: 0px;
+            border: 2px solid black;
+        border-radius: 10px;
+            
+         }
+         .container .panel-headingtext-center h2{
+                font-size: 25px;
+                margin: 0;
+                color: #F5EFE6;
+                text-shadow: 0px 3px 5px black;
+            }
+      </style>
+    </head>
+<center>
+     <body>
+        <div class="container">
+            <div class="row col-md-6 col-md-offset-3">
+                <div class="panel panel-primary">
+                    <div class="panel-headingtext-center">
+                        <marquee><h2>Candidate New Registration for academics year 2022-23 <h2>  </marquee>
+
+
+                    </div>
+                    <div class="panel-body">
+                        <form action="connect.php" method="post">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <label for="firstName">First Name :</label></td>
+                                        <td><input  type="text" class="form-control" pattern="[a-z A-Z]*" id="firstname" name="firstname" placeholder="Enter your frist name" required/></td>
+                                </div>
+                                
+                                 </tr>
+                                  <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <label for="Middlename">Parent Name:</label></td>
+                                        <td> <input
+                                                type="text"
+                                                class="form-control"
+                                                id="Middlename"
+                                                name="Middlename" pattern="[a-z A-Z]*" placeholder="Enter Parent name" required /></td>
+                                        </div>
+                                   
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <label for="lastName">Last Name : </label></td>
+                                        <td> <input
+                                                type="text"
+                                                class="form-control"
+                                                id="lastname"
+                                                name="lastname" pattern="[a-z A-Z]*" placeholder="Enter your last name" required /></td>
+                                        </div>
+                                   
+                                </tr>
+                                 <tr>
+                                                <div class="form-group">
+                                                    <td> <label>Gender : </label></td>
+                                                    <td> <input type="radio" name="gender" value="male"  id="m" class="form-control"> Male 
+                                                     <input type="radio" name="gender" value="female" id="f" class="form-control"> Female
+                                                  <input type="radio" name="gender" value="other" id="o" class="form-control"> Other </td>
+                                                   </div>
+                                                    </tr>
+
+                                                      <tr>
+                                                <div class="form-group">
+                                                    <td> <label> Course : </label></td>
+                                                    <td> <input type="radio" name="course" value="pre-primary"  class="form-control"> pre-primary 
+                                                     <input type="radio" name="course" value="primary" class="form-control"> primary
+                                                  <input type="radio" name="course" value="Secondary"  class="form-control"> Secondary </td>
+                                                   </div>
+                                                    </tr>
+
+                              <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <label for="email">Email : </label></td>
+                                        <td> <input
+                                                type="email"
+                                                class="form-control"
+                                                id="email"
+                                                name="email"placeholder="Enter your email" required
+                                                /></td>
+                                        </div>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <label for="password">Password :</label></td>
+                                        <td><input
+                                                type="password"
+                                                class="form-control"
+                                                id="password"
+                                                name="password"placeholder="Enter your password" required
+                                                /></td>
+                                        </div>
+                                   
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <label for="number">Mobile Number:</label></td>
+                                        <td><input
+                                                type="tel"
+                                                class="form-control"
+                                                id="number"
+                                                pattern="[0-9]{10}"
+                                                name="number"placeholder="Enter your contact number" required
+                                                /></td>
+                                        </div>
+                                    
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <input  type="submit"  value="Submit" class="btnbtn-primary" name="register" />
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</center>
+</html>
